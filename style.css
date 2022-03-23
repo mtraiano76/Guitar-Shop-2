@@ -1,5 +1,5 @@
 body{
-    background-color: grey;
+    background-color:lightslategrey;
   
 }
 
@@ -11,121 +11,59 @@ header {
     background-color:aqua;
     text-align: left;
     background-image: url(/image/baner.jpg);
+    background-size: cover; /*amplia la imagen background hasta cubrir el espacio*/
+    height: 300PX;
 }
+div.Cubo {
+    font-family: 'Bebas Neue', cursive;
+    font-size:75px;
+    color:white;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    background:lightsteelblue;
+    width: 100%;
+    height: 150px;
+    margin: 2px;
+    position: relative;
+    animation-name: colores;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+  @keyframes colores{
+    0% {
+      background-color: red;
+    }
+    50%{
+      background-color: white;
+    }
+    100%{
+      background-color: lightsteelblue;
+    }
+    
+  }
+
 h1{
   font-family: 'Bebas Neue', cursive;
     font-size:50px;
     color:white;
     -webkit-text-stroke: 0.1px black;
 }
-
-div.caja1{
-    height:200px;
-    width: 100px;
+img {
+  width: 15%;
+  box-sizing: border-box;  
+  box-shadow: 5px 5px 5px 5px #000000; 
+  margin:5px; 
 }
-
 div.modelos{
-    box-sizing: border-box;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-around; /*con este linea de codigo genero espacio entre los div de las gutiarras*/
-}
-div.gib1{
-    display: flex;
-    justify-content:space-around;
-    box-sizing: border-box;  
-    background-color: #610c0c;
-    box-shadow: 4px 5px 6px 8px #000000;  
-    max-width: 100%; /*La max-width propiedad define el ancho máximo de un elemento*/
-    width: 24%;
-    margin:5px;
-}
-div.gib2{
-    display: flex;
-    justify-content:space-around;
-    box-sizing: border-box;  
-    background-color: #610c0c;
-    box-shadow: 4px 5px 6px 8px #000000;  
-    max-width: 100%; /*La max-width propiedad define el ancho máximo de un elemento*/
-    width: 24%;
-    margin:5px;
-}
-div.gib3{
-    display: flex;
-    justify-content:space-around;
-    box-sizing: border-box;  
-    background-color: #610c0c;
-    box-shadow: 4px 5px 6px 8px #000000;  
-    max-width: 100%; /*La max-width propiedad define el ancho máximo de un elemento*/
-    width: 24%;
-    margin:5px;
-}
-div.gib4{
-    display: flex;
-    justify-content:space-around;
-    box-sizing: border-box;  
-    background-color: #610c0c;
-    box-shadow: 4px 5px 6px 8px #000000;  
-    max-width: 100%; /*La max-width propiedad define el ancho máximo de un elemento*/
-    width: 24%;
-    margin:5px;
-}
-div.gib5{
-    display: flex;
-    justify-content:space-around;
-    box-sizing: border-box;  
-    background-color: #610c0c;
-    box-shadow: 4px 5px 6px 8px #000000;  
-    max-width: 100%; /*La max-width propiedad define el ancho máximo de un elemento*/
-    width: 24%;
-    margin:5px;
-}
-div.gib6{
-    display: flex;
-    justify-content:space-around;
-    box-sizing: border-box;  
-    background-color: #610c0c;
-    box-shadow: 4px 5px 6px 8px #000000;  
-    max-width: 100%; /*La max-width propiedad define el ancho máximo de un elemento*/
-    width: 24%;
-    margin:5px;
-}
-div.gib7{
-    display: flex;
-    justify-content:space-around;
-    box-sizing: border-box;  
-    background-color: #610c0c;
-    box-shadow: 4px 5px 6px 8px #000000;  
-    max-width: 100%; /*La max-width propiedad define el ancho máximo de un elemento*/
-    width: 24%;
-    margin:5px;
-}
-div.gib8{
-    display: flex;
-    justify-content:space-around;
-    box-sizing: border-box;  
-    background-color: #610c0c;
-    box-shadow: 4px 5px 6px 8px #000000;  
-    max-width: 100%; /*La max-width propiedad define el ancho máximo de un elemento*/
-    width: 24%;
-    margin:5px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
-
-/*h1 {
-    font-family: 'Bebas Neue', cursive;
-    font-size:75px;
-    color:white;
-    -webkit-text-stroke: 0.2px black; /*para poner borde negro en tipografia
-}*/
 div.mustaine{
   display:flex;
   margin:3%;
   justify-content: center;
-
- 
 }
 
 footer{
@@ -242,3 +180,4 @@ footer ul li a{
   font-size: 50px;
   color: white;
 }
+
