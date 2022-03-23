@@ -41,14 +41,25 @@ div.Cubo {
     }
     
   }
+  p{
+    font-size: 100px;
+  }
 
-h1{
+  h1{
   font-family: 'Bebas Neue', cursive;
-    font-size:50px;
+    font-size:100px;
     color:white;
     -webkit-text-stroke: 0.1px black;
 }
-img {
+  
+  h2{
+  font-family: 'Bebas Neue', cursive;
+    font-size:100px;
+    color:white;
+    -webkit-text-stroke: 0.1px black;
+}
+
+  img {
   width: 15%;
   box-sizing: border-box;  
   box-shadow: 5px 5px 5px 5px #000000; 
@@ -181,3 +192,28 @@ footer ul li a{
   color: white;
 }
 
+@media(max-width: 768px){
+
+  h1{
+    font-size: 65px;
+}
+  h2{
+    font-size: 65px;
+  }
+  p{
+    font-size: 65px;
+  }
+}
+@media(max-width: 368px){
+
+  h1{
+    font-size: 40px;
+}
+
+  h2{
+    font-size: 40px;
+  }
+  p{
+    font-size: 40px;
+  }
+}
