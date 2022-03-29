@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body{
     background-color:lightslategrey;
   
@@ -13,6 +20,58 @@ header {
     background-image: url(/image/baner.jpg);
     background-size: cover; /*amplia la imagen background hasta cubrir el espacio*/
     height: 300PX;
+
+}
+.form-register{
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px  #000;
+}
+
+.form-register h4{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+
 }
 div.Cubo {
     font-family: 'Bebas Neue', cursive;
@@ -29,7 +88,7 @@ div.Cubo {
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
-  @keyframes colores{
+@keyframes colores{
     0% {
       background-color: red;
     }
@@ -41,25 +100,33 @@ div.Cubo {
     }
     
   }
-  p{
+p{
     font-size: 100px;
   }
 
-  h1{
+h1{
   font-family: 'Bebas Neue', cursive;
     font-size:100px;
     color:white;
     -webkit-text-stroke: 0.1px black;
+    text-align: center;
 }
   
-  h2{
+h2{
   font-family: 'Bebas Neue', cursive;
     font-size:100px;
     color:white;
     -webkit-text-stroke: 0.1px black;
+    text-align: center;
+}
+h5{
+  font-family: 'Bebas Neue', cursive;
+  font-size:40px;
+  text-align: left;
+
 }
 
-  img {
+img {
   width: 15%;
   box-sizing: border-box;  
   box-shadow: 5px 5px 5px 5px #000000; 
