@@ -262,25 +262,25 @@ footer ul li a{
 @media(max-width: 768px){
 
   h1{
-    font-size: 65px;
+    font-size: 55px;
 }
   h2{
-    font-size: 65px;
+    font-size: 55px;
   }
   p{
-    font-size: 65px;
+    font-size: 55px;
   }
 }
-@media(max-width: 368px){
+@media(max-width: 320px){
 
   h1{
-    font-size: 40px;
+    font-size: 30px;
 }
 
   h2{
-    font-size: 40px;
+    font-size: 30px;
   }
   p{
-    font-size: 40px;
+    font-size: 30px;
   }
 }
