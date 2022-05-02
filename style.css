@@ -7,7 +7,7 @@
 
 body{
     background-color:lightslategrey;
-  
+
 }
 
 header {
@@ -19,7 +19,25 @@ header {
     text-align: left;
     background-image: url(/image/baner.jpg);
     background-size: cover; /*amplia la imagen background hasta cubrir el espacio*/
-    height: 300PX;
+    height: 300px;
+}
+.nav-enlace{
+  display: inline-block;
+  background-color:rgb(87, 114, 142);
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-family: Bebas Neue ;
+  font-size:20px;
+}
+.nav-enlace:hover{
+  background: rgb(41, 66, 94);;
+}
+nav{
+  background: rebeccapurple;
+  padding:10px;
+  display: flex;
+  justify-content: space-around;
 
 }
 .form-register{
@@ -83,6 +101,7 @@ div.Cubo {
     width: 100%;
     height: 150px;
     margin: 2px;
+    padding: 10px;
     position: relative;
     animation-name: colores;
     animation-duration: 5s;
@@ -98,7 +117,6 @@ div.Cubo {
     100%{
       background-color: lightsteelblue;
     }
-    
   }
 p{
     font-size: 100px;
@@ -111,13 +129,13 @@ h1{
     -webkit-text-stroke: 0.1px black;
     text-align: center;
 }
-  
-h2{
+h3{
   font-family: 'Bebas Neue', cursive;
-    font-size:100px;
+    font-size:50px;
     color:white;
     -webkit-text-stroke: 0.1px black;
-    text-align: center;
+    text-align: left;
+    padding: 10px;
 }
 h5{
   font-family: 'Bebas Neue', cursive;
