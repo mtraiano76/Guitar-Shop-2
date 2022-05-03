@@ -21,37 +21,42 @@ header {
 }
 .nav-enlace{
   display: inline-block;
-  background-color:rgb(87, 114, 142);
+  background-color:rgb(92, 149, 211);
   color: white;
   padding: 10px 30px;
   text-decoration: none;
   font-family: Bebas Neue ;
-  font-size:20px;
+  font-size:30px;
+  border-radius: 5px;
 }
 .nav-enlace:hover{
   background: rgb(41, 66, 94);;
 }
 nav{
-  background-color: lightskyblue;
+  background-color:rgba(99, 163, 223, 0.479);
   padding:10px;
+  margin: 5px;
   display: flex;
   justify-content: space-around;
+  border-radius:5px;
+  animation-name: colores;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
-div.Cubo {
+
+div.secccion-marcas {
     font-family: 'Bebas Neue', cursive;
     font-size:75px;
     color:white;
     -webkit-text-stroke: 2px black;
     text-align: center;
     background:lightsteelblue;
-    width: 100%;
     height: 150px;
-    margin: 2px;
+    margin: 5px;
     padding: 10px;
+    border-radius: 5px;
     position: relative;
-    animation-name: colores;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+  
 }
 div.links{
   display: flex;
@@ -60,13 +65,13 @@ div.links{
 }
 @keyframes colores{
     0% {
-      background-color: red;
+      background-color: rgba(73, 115, 194, 0.514);
     }
     50%{
-      background-color: white;
+      background-color: rgba(146, 190, 255, 0.486);
     }
     100%{
-      background-color: lightsteelblue;
+      background-color: rgba(176, 196, 222, 0.452);
     }
   }
 p{
@@ -115,24 +120,16 @@ img {
   margin:5px; 
 }
 
+
 div.modelos{
   display: flex;
   flex-wrap: wrap;
   text-align: center;
 }
-div.video{
-  display: flex;
-  align-items: center
-}
-
 div.mustaine{
-  display:flex;
-  margin:3%;
-
-}
-div.jerry-cantrell{
-  display:flex;
-
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 footer{
