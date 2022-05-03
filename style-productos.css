@@ -59,7 +59,7 @@ body{
   margin-top: -140px;
   padding: 10px 15 px;
   text-align: center;
-  color: #111;
+  color: rgb(255, 255, 255);
   visibility: hidden;
   opacity: 0;
   transition: 0.3s ease-in-out;
