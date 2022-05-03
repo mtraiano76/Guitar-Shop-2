@@ -32,7 +32,7 @@ header {
   background: rgb(41, 66, 94);;
 }
 nav{
-  background: rebeccapurple;
+  background-color: lightskyblue;
   padding:10px;
   display: flex;
   justify-content: space-around;
@@ -53,6 +53,11 @@ div.Cubo {
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
+div.links{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
 @keyframes colores{
     0% {
       background-color: red;
@@ -65,47 +70,42 @@ div.Cubo {
     }
   }
 p{
-    font-size: 100px;
+  font-size: 100px;
   }
 
 h1{
   font-family: 'Bebas Neue', cursive;
-    font-size:100px;
-    color:white;
-    -webkit-text-stroke: 0.1px black;
-    text-align: center;
+  font-size:100px;
+  color:white;
+  -webkit-text-stroke: 0.1px black;
+  text-align: center;
 }
 h3{
   font-family: 'Bebas Neue', cursive;
-    font-size:50px;
-    color:white;
-    -webkit-text-stroke: 0.1px black;
-    text-align: center;
-    padding: 10px;
+  font-size:50px;
+  color:white;
+  -webkit-text-stroke: 0.1px black;
+  text-align: center;
+  padding: 10px;
 }
 h5{
   font-family: 'Bebas Neue', cursive;
   font-size:25px;
   text-align: left;
-
 }
 
 span{
   font-family: 'Bebas Neue', cursive;
     font-size:50px;
     color:white;
-    
     text-align: center;
     padding: 10px;
-
 }
+
 div.registro{
-
-
   width: 100%;
   height: 150px;
   margin: 2px;
-  
 }
 
 img {
@@ -114,16 +114,25 @@ img {
   box-shadow: 5px 5px 5px 5px #000000; 
   margin:5px; 
 }
+
 div.modelos{
   display: flex;
   flex-wrap: wrap;
   text-align: center;
 }
+div.video{
+  display: flex;
+  align-items: center
+}
 
 div.mustaine{
   display:flex;
   margin:3%;
-  justify-content: center;
+
+}
+div.jerry-cantrell{
+  display:flex;
+
 }
 
 footer{
@@ -191,7 +200,7 @@ footer .links ul{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 footer .links ul li{
@@ -249,10 +258,16 @@ footer ul li a{
 }
   h2{
     font-size: 55px;
-  }
+}
   p{
     font-size: 55px;
+}
+  div.video{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
+
 }
 @media(max-width: 320px){
 
@@ -265,5 +280,11 @@ footer ul li a{
   }
   p{
     font-size: 30px;
+  }
+
+  div.video{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 }
