@@ -1,22 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body{
-      background-image:url(/image/wallpaperbetter.jpg);
-      background-size:100%;
-  }
-  header {
-      color:white;
-      -webkit-text-stroke: 2px black; /*para poner borde negro en tipografia*/
-      background-color:aqua;
-      text-align: left;
-      background-image: url(/image/baner.jpg);
-      background-size: cover; /*amplia la imagen background hasta cubrir el espacio*/
-      height: 300px;
 
-  }
   
 
 *{
@@ -30,7 +12,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blueviolet;
+  background-image:url(/image/wallpaperbetter.jpg);
+    background-size:100%;
 }
 
 .container {
