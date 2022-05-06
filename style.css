@@ -132,6 +132,9 @@ div.modelos{
   max-width: 960px;
 
 }
+div.video{
+  text-align: center;
+}
 
 .contenedor-detalle .caja-video * {
   left: 0;
@@ -139,8 +142,6 @@ div.modelos{
   height: 100%;
   width: 100%;
   position: absolute;
-  
-
 }
 
 footer{
