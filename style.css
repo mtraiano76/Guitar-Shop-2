@@ -13,7 +13,6 @@ header {
     font-size:75px;
     color:white;
     -webkit-text-stroke: 2px black; /*para poner borde negro en tipografia*/
-    background-color:aqua;
     text-align: left;
     background-image: url(/image/baner.jpg);
     background-size: cover; /*amplia la imagen background hasta cubrir el espacio*/
