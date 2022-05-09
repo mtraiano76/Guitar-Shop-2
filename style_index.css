@@ -11,21 +11,22 @@
     text-align: left;
   }
   body{
-  
-      /*background-image:url(/image/wallpaperbetter.jpg);
-      background-size:100%;*/
+
       background-color:black;
   }
   .carousel-inner {
     width: 100%;
     overflow: hidden;
-    margin-left: 25%;
-    height: 490px;
+    height: 500px;
   }
+  .slide{
+    margin-top: 10px;
+  }
+  
   div.ingresar{
       text-align: center;
-
   }
+
   div.boton{
       font-family: 'Bebas Neue', cursive;
       font-size: 35px;
