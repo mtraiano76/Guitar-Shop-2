@@ -26,9 +26,10 @@ header {
 h1 {
   -webkit-text-stroke: 1px black; /*para poner borde negro en tipografia*/
   font-family: 'Bebas Neue', cursive;
-  font-size:125px;
+  font-size:120px;
   color:white;
-}
+  font-weight: lighter;
+} 
 .nav-enlace{
   display: inline-block;
   background-color:rgb(92, 149, 211);
