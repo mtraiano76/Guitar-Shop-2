@@ -78,7 +78,7 @@ nav{
   flex-direction: row;
   align-items: center;
   padding: 35px 0px 25px 75px;
-  margin: -70px 0px 0px -60px
+  margin: -130px 0px 0px -3px
 
 
 }
@@ -112,7 +112,7 @@ nav{
   width: 200px;
   height: 1000px;
   top: -60px;
-  left: 20px;
+  left: 13px;
   z-index: 1;
   box-shadow: 0 5px 20px rgba(0,0,0,0,2);
 }
@@ -139,6 +139,15 @@ nav{
   margin-top: -40px;
   transition-delay: 0.3s;
 }
+h2{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: lighter;
+  font-size:23px;
+  color:white;
+  text-align: center;
+  padding: 5px;
+  }
+
 @media(max-width: 768px){
   h1 {
     -webkit-text-stroke: 0.8px black; /*para poner borde negro en tipografia*/
@@ -248,10 +257,10 @@ nav{
 
   .container .card .gib {
     position: relative;
-    width: 200px;
+    width: 260px;
     height: 600px;
-    top: -40px;
-    left: 20px;
+    top: -30px;
+    left: 39px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0,0,0,0,2);
   }
@@ -272,7 +281,7 @@ nav{
   .container .card:hover .content{
     visibility: visible;
     opacity: 1;
-    margin-top: -40px;
+    margin-bottom: 83px;
     transition-delay: 0.3s;
   }
 }
@@ -381,10 +390,10 @@ nav{
 
   .container .card .gib {
     position: relative;
-    width: 100px;
+    width: 190px;
     height: 600px;
     top: -40px;
-    left: 20px;
+    left: 21px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0,0,0,0,2);
   }
