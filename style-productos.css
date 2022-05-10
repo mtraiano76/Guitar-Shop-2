@@ -96,13 +96,6 @@ nav{
 }
 
 
-/*padding: 1em 3px 30px 5px;  /*  arriba    1em  padding  */
-/*  derecha  3px  padding  */
-/*  abajo 30px padding  */
-/*  izquierda   5px  padding
-/* en dirección de las agujas del reloj */
-
-
 .container .card:hover{
   height: 600px;
 }
