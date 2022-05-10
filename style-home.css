@@ -278,7 +278,6 @@ footer ul li a{
 }
 
 .guitarras .guitarras-list li {
-  box-shadow: 5px 5px 5px 3px black;
   position: relative;
   width: 270px;
   height: 475px;
@@ -289,6 +288,7 @@ footer ul li a{
 .guitarras .guitarras-list li img {
   height: inherit;
   width: inherit;
+  border-radius: 8px;
 }
 
 .guitarras .guitarras-list li .guitarras-description {
@@ -435,6 +435,11 @@ footer ul li a{
     padding: 10px;
     border-radius: 5px;
     position: relative;
+  }
+  .guitarras .guitarras-list li img {
+    height: inherit;
+    width: inherit;
+    border-radius: 8px;
   }
 }
 
