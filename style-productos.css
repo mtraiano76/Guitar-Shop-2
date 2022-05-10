@@ -78,7 +78,7 @@ nav{
   flex-direction: row;
   align-items: center;
   padding: 35px 0px 25px 75px;
-  margin: -70px 0px 0px -60px
+  margin: -30px 0px 0px 0px
 
 
 }
@@ -105,7 +105,7 @@ nav{
   width: 200px;
   height: 1000px;
   top: -60px;
-  left: 20px;
+  left: 13px;
   z-index: 1;
   box-shadow: 0 5px 20px rgba(0,0,0,0,2);
 }
@@ -132,6 +132,47 @@ nav{
   margin-top: -40px;
   transition-delay: 0.3s;
 }
+h2{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: lighter;
+  font-size:23px;
+  color:white;
+  text-align: center;
+  padding: 5px;
+  }
+  
+.contact {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    z-index: 10;
+  }
+  
+.contact .fixed-mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d1d1d91;
+    padding: 15px;
+    border-radius: 100%;
+    margin: 10px;
+  }
+  
+.contact .fixed-wp {
+    background-color: #1d1d1d91;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 100%;
+    margin: 10px;
+    text-align: center;
+  }
+  
+.contact a i{
+    font-size: 50px;
+    color: white;
+  }
+
 @media(max-width: 768px){
   h1 {
     -webkit-text-stroke: 0.8px black; /*para poner borde negro en tipografia*/
@@ -241,10 +282,10 @@ nav{
 
   .container .card .gib {
     position: relative;
-    width: 200px;
+    width: 260px;
     height: 600px;
-    top: -40px;
-    left: 20px;
+    top: -30px;
+    left: 39px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0,0,0,0,2);
   }
@@ -265,7 +306,7 @@ nav{
   .container .card:hover .content{
     visibility: visible;
     opacity: 1;
-    margin-top: -40px;
+    margin-bottom: 83px;
     transition-delay: 0.3s;
   }
 }
@@ -374,10 +415,10 @@ nav{
 
   .container .card .gib {
     position: relative;
-    width: 100px;
+    width: 190px;
     height: 600px;
     top: -40px;
-    left: 20px;
+    left: 21px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0,0,0,0,2);
   }

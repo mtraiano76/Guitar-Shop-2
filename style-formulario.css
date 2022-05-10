@@ -110,6 +110,38 @@ nav{
   font-size: 16px;
   border-radius:6px;
 }
+.contact {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  z-index: 10;
+}
+
+.contact .fixed-mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1d1d1d91;
+  padding: 15px;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.contact .fixed-wp {
+  background-color: #1d1d1d91;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 100%;
+  margin: 10px;
+  text-align: center;
+}
+
+.contact a i{
+  font-size: 50px;
+  color: white;
+}
+
 
 @media(max-width: 768px){
   h1 {

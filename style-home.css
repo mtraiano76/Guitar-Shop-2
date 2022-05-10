@@ -3,13 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
 
+body{
     background-image:url(/image/wallpaperbetter.jpg);
     background-size:100%;
 }
-header {
 
+header {
     /*-webkit-text-stroke: 2px black; /*para poner borde negro en tipografia*/
     text-align: left;
     background-image: url(/image/baner.jpg);
@@ -27,9 +27,11 @@ header {
   font-size:30px;
   border-radius: 5px;
 }
+
 .nav-enlace:hover{
   background: rgb(41, 66, 94);;
 }
+
 nav{
   background-color:rgba(99, 163, 223, 0.479);
   padding:10px;
@@ -61,6 +63,7 @@ div.links{
   flex-direction: column;
   align-items: center
 }
+
 @keyframes colores{
     0% {
       background-color: rgba(73, 115, 194, 0.514);
@@ -119,7 +122,8 @@ div.registro{
 
 img {
   box-sizing: border-box;  
-  box-shadow: 5px 5px 5px 5px #000000; 
+  border-radius: 10px;
+  width: 5px;
   }
 
 div.modelos{
@@ -288,7 +292,7 @@ footer ul li a{
 .guitarras .guitarras-list li img {
   height: inherit;
   width: inherit;
-  border-radius: 8px;
+  
 }
 
 .guitarras .guitarras-list li .guitarras-description {
@@ -342,7 +346,7 @@ footer ul li a{
   padding: 10px;
   color: white;
   background-color: #0069d9;
-  border-radius: 4px;
+  border-radius: 6px;
   height: 50px;
   border: 0px;
   text-align: center;
@@ -383,14 +387,15 @@ footer ul li a{
     text-align: center;
     padding: 10px;
     }
+
   p{
     font-size: 55px;
-}
+  }
   img {
     box-sizing: border-box;  
-    box-shadow: 5px 5px 5px 5px #000000; 
-    margin:10px; 
+    width: 100%;
   }
+  
  
   .nav-enlace{
     display: inline-block;
@@ -440,6 +445,13 @@ footer ul li a{
     height: inherit;
     width: inherit;
     border-radius: 8px;
+  }
+  .guitarras .guitarras-list {
+    padding: 0px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 
@@ -516,7 +528,12 @@ footer ul li a{
     border-radius: 5px;
     position: relative;
 
-}
-
+  }
+  .guitarras .guitarras-list li img {
+    height: inherit;
+    width: inherit;
+    border-radius: 8px;
+    
+  }
 }
 
