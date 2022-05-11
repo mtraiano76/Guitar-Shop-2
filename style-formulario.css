@@ -11,7 +11,7 @@
 body{
   font-family: 'Montserrat', sans-serif;
   background-image: url(image/registro.jpg);
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
   background-position:center;
   background-size: cover;
   color: white;
@@ -209,7 +209,6 @@ nav{
   font-size: 50px;
   color: white;
 }
-
 
 @media(max-width: 768px){
   h1{

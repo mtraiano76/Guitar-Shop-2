@@ -11,7 +11,7 @@
 body{
   font-family: 'Montserrat', sans-serif;
   background-image: url(image/destacados.jpg);
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
   background-position:center;
   background-size: cover;
   color: white;
@@ -24,11 +24,15 @@ h1{
 h2{
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
-  font-size:23px;
+  font-size:20px;
   color:white;
   text-align: center;
   padding: 5px;
   }
+  p{
+    font-size: 11px;
+    padding: 10px 5px 11px 5px;
+}
 
 nav{
   height: 100px;
@@ -143,17 +147,18 @@ nav{
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   padding: 35px 0px 25px 75px;
-  margin: -30px 0px 0px 0px
+  margin: -25px 0px 300px -70px
 }
 
 .container .card{
   position: relative;
   max-width: 223px;
   height: 215px;
-  background-color: rgba(50, 103, 138, 0.658);
+  background-color: rgba(168, 14, 14, 0.658);
   margin: 208px 10px 30px 10px;
-  padding: 20px 15px;
+  padding: 20px 0px;
   display: flex;
   flex-direction: column;
   box-shadow: 0 5px 20px rgba(0,0,0,0,5);
@@ -234,13 +239,13 @@ nav{
     font-size: 50px;
   }
 
-  h3{
+  h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
-    font-size:18px;
+    font-size:20px;
     color:white;
     text-align: center;
-    padding: 10px;
+    padding: 25px 0px 0px 0px;
     }
   p{
     font-size: 7px;
@@ -248,27 +253,27 @@ nav{
   img {
     box-sizing: border-box;  
     box-shadow: 5px 5px 5px 5px #000000; 
-    margin:10px; 
+    margin:-8px; 
   }
 
   .container {
     position: relative;
-    width: 0px;
+    width: 100%;
     display: flex;
-    justify-content:center;
-    align-items: center;
     flex-wrap: wrap;
-    padding: 35px 0px 25px 75px;
-    margin-left: 35%;
-
+    flex-direction: row;
+    align-items: center;
+    padding: 35px 0px 25px 0px;
+    margin: -25px 0px 0px 0px
   }
+  
   .container .card{
     position: relative;
-    max-width: 300px;
-    height: 215px;
-    background-color: rgba(50, 103, 138, 0.658);
-    margin: 100px 10px -30px;
-    padding: 20px 15px;
+    max-width: 223px;
+    height: 220px;
+    background-color: rgba(168, 14, 14, 0.658);
+    margin: 208px 10px 30px 10px;
+    padding: 20px 0px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 5px 20px rgba(0,0,0,0,5);
@@ -316,40 +321,44 @@ nav{
 
 @media(max-width: 320px){
   h1{
-    font-size: 35px;
+    font-size: 50px;
   }
 
-  h3{
+  h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
-    font-size:18px;
+    font-size:20px;
     color:white;
     text-align: center;
-    padding: 10px;
+    padding: 25px 0px 0px 0px;
     }
-    
   p{
     font-size: 7px;
+}
+  img {
+    box-sizing: border-box;  
+    box-shadow: 5px 5px 5px 5px #000000; 
+    margin:-15px; 
   }
 
   .container {
     position: relative;
-    width: 0px;
+    width: 100%;
     display: flex;
-    justify-content:center;
-    align-items: center;
     flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
     padding: 35px 0px 25px 75px;
-    margin-left: 35%;
-
+    margin: -25px 0px 0px 0px
   }
+  
   .container .card{
     position: relative;
-    max-width: 200px;
-    height: 215px;
-    background-color: rgba(50, 103, 138, 0.658);
-    margin: 100px 10px -30px;
-    padding: 20px 15px;
+    max-width: 223px;
+    height: 220px;
+    background-color: rgba(168, 14, 14, 0.658);
+    margin: 208px 10px 30px 10px;
+    padding: 20px 0px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 5px 20px rgba(0,0,0,0,5);
@@ -362,17 +371,19 @@ nav{
 
   .container .card .gib {
     position: relative;
-    width: 190px;
+    width: 260px;
     height: 600px;
-    top: -40px;
-    left: 21px;
+    top: -30px;
+    left: 39px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0,0,0,0,2);
   }
+
   .container .card .gib img {
     max-width: 60%;
     border-radius: 4px;
   }
+
   .container .card .content {
     position: relative;
     margin-top: 0px;
@@ -383,13 +394,13 @@ nav{
     opacity: 0;
     transition: 0.3s ease-in-out;
   }
+
   .container .card:hover .content{
     visibility: visible;
     opacity: 1;
-    margin-top: -40px;
+    margin-bottom: 83px;
     transition-delay: 0.3s;
   }
-
 }
 
 @media screen and (min-width: 768px) {
