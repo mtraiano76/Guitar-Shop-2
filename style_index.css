@@ -6,11 +6,12 @@
   list-style: none;
   box-sizing: border-box;
 }
+
 body{
   font-family: 'Montserrat', sans-serif;
   color: white;
-  
 }
+
 h1{
   font-size: 70px;
 }
@@ -30,7 +31,6 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .bar-btn{
@@ -134,7 +134,7 @@ nav{
       display: none;
   }
 
-  nav-menu{
+  /*.nav-menu{
       position: relative;
       height: 100px;
       top: 0;
@@ -142,7 +142,7 @@ nav{
       transition: none;
       text-align:right;
       margin: right 50px;
-  }
+  }*/
   .nav-menu li {
       display: inline-flex;
       line-height:100px;
