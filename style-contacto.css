@@ -19,6 +19,7 @@ body{
 
 h1{
   font-size: 70px;
+  margin-left: 5px;
 }
 
 h2{
@@ -138,7 +139,7 @@ nav{
 
 .form-contact{
   width: 400px;
-  background: #24303c;
+  background-color: rgba(168, 14, 14, 0.658);
   padding: 30px;
   margin: auto;
   margin-top: 25px;
@@ -147,7 +148,7 @@ nav{
   color: white;
   box-shadow: 7px 13px 37px  #000;  
 }
-  
+
 .form-contact h4{
   font-size: 22px;
   margin-bottom: 20px;
@@ -155,11 +156,11 @@ nav{
 
 .controls {
   width: 100%;
-  background: #24303c;
+  background: rgb(104, 9, 9);
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
-  border: 1px solid #1f53c5;
+  border: 1px solid red;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   color: white;
@@ -183,7 +184,7 @@ nav{
 
   .form-contact .botons {
     width: 100%;
-    background: #1f53c5;
+    background: rgb(205, 15, 15);
     border: none;
     padding: 12px;
     color: white;

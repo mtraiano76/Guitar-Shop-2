@@ -18,6 +18,7 @@ body{
 
 h1{
   font-size: 70px;
+  margin-left: 5px;
 }
 
 nav{
@@ -388,36 +389,34 @@ footer ul li a{
 
 /*TERMINA CODIGO PARA HOVER*/
 
-/*@media(max-width: 768px){
+@media(max-width: 768px){
 
+
+  h1{
+    font-size: 50px;
+    text-align: center;
+  }
 
   h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
-    font-size:23px;
+    font-size:20px;
     color:white;
     text-align: center;
-    padding: 10px;
+    padding: 25px 0px 0px 0px;
     }
-  
-  h3{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-    font-size:18px;
-    color:white;
-    text-align: center;
-    padding: 10px;
-    }
-
   p{
-    font-size: 55px;
-  }
+    font-size: 7px;
+}
   img {
     box-sizing: border-box;  
-    width: 100%;
+    box-shadow: 5px 5px 5px 5px #000000; 
+    margin:-8px; 
   }
+}
 
-  .guitarras .guitarras-list li img {
+
+  /*.guitarras .guitarras-list li img {
     height: inherit;
     width: inherit;
     border-radius: 8px;
@@ -429,40 +428,32 @@ footer ul li a{
     justify-content: center;
     flex-wrap: wrap;
   }
-}
+}*/
 
 @media(max-width: 320px){
 
-  
+  h1{
+    font-size: 40px;
+    text-align: center;
+  }
 
   h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
-    font-size:23px;
+    font-size:20px;
     color:white;
     text-align: center;
-    padding: 10px;
-    }
-  
-  h3{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-    font-size:18px;
-    color:white;
-    text-align: center;
-    padding: 10px;
+    padding: 25px 0px 0px 0px;
     }
   p{
-    font-size: 55px;
+    font-size: 7px;
+}
   }
-
-
-  }
-  .guitarras .guitarras-list li img {
+  /*.guitarras .guitarras-list li img {
     height: inherit;
     width: inherit;
     border-radius: 8px;
-    
+
   }*/
 
 @media screen and (min-width: 768px) {
