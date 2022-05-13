@@ -21,6 +21,7 @@ h1{
   margin-left: 5px;
 }
 
+/*Menu desplegable*/
 nav{
   height: 100px;
   width: 100%;
@@ -123,6 +124,8 @@ nav{
   transition: .5s;
 }
 
+/*Textos e Imagenes*/
+
 h2{
 
   font-weight: lighter;
@@ -155,12 +158,7 @@ img {
   width: 5px;
   }
 
-div.modelos{
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  }
-
+/*Video link YouTube*/
 .contenedor-detalle .caja-video {
   overflow: hidden;
   padding-bottom: 400px;
@@ -169,12 +167,20 @@ div.modelos{
   max-width: 960px;
   }
 
-div.video{
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  padding: 125px;
-  }
+.video-responsive {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+    }
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    }
 
 .contenedor-detalle .caja-video * {
   left: 0;
@@ -184,8 +190,9 @@ div.video{
   position: absolute;
   }
 
+/*Footer y pie de pagina*/
+
 footer{
-  /*background-color: #262626;*/
   color: white;
   display: flex;
   flex-direction: column;
@@ -364,7 +371,6 @@ footer ul li a{
 .guitarras .guitarras-list li .guitarras-description .deatil-buttons {
   display: flex;
   flex-direction: column;
-  
 }
 
 .guitarras .guitarras-list li .guitarras-description .deatil-buttons i {
@@ -388,8 +394,6 @@ footer ul li a{
   transition-property: background-color;
   transition-duration: 0.5s;
 }
-
-
 /*TERMINA CODIGO PARA HOVER*/
 
 @media(max-width: 768px){
@@ -408,21 +412,42 @@ footer ul li a{
     text-align: center;
     padding: 25px 0px 0px 0px;
     }
+
   p{
     font-size: 7px;
-}
+    }
+
   img {
-    box-sizing: border-box;  
-    
-  }
+    box-sizing: border-box; 
+    }
+
+  div.video{
+    text-align: center;
+    width: 100%;
+    }
+
+  .guitarras .guitarras-list li {
+    position: relative;
+    width: 270px;
+    height: 290px;
+    margin: 20px -84px 0px 0px;
+    overflow: hidden;
+    }
+
+  .guitarras .guitarras-list li img {
+    /*height: inherit;*/
+    width: 65%;
+    /*padding: 10px;*/  
+    }
+
   .guitarras .guitarras-list li .guitarras-description {
-    position: absolute;
+    position: inherit;
     background-color: #1d1d1dad;
     color: white;
-    height: 80%;
-    right: 0px;
-    bottom: 0px;
-    width: inherit;
+    height: 45%;
+    right: -7px;
+    bottom: 140px;
+    width: 60%;
     transform: translate(0%, 100%);
     transition: transform;
     transition-duration: .75s;
@@ -430,12 +455,12 @@ footer ul li a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
-  }
+    border-radius: 20px;
+    }
   
   .guitarras .guitarras-list li:hover .guitarras-description {
     transform: translate(0%, 0%);
-  }
+    }
   
   .guitarras .guitarras-list li .guitarras-description .guitarras-description-items {
     display: flex;
@@ -444,22 +469,21 @@ footer ul li a{
     justify-content: center;
     align-items: center;
     margin: 0px 10px;
-  }
+    }
   
   .guitarras .guitarras-list li .guitarras-description .guitarras-descrition-items h2 {
     text-align: center;
     font-size: medium;
-  }
+    }
   
   .guitarras .guitarras-list li .guitarras-description .deatil-buttons {
     display: flex;
-    flex-direction: column;
-    
-  }
+    flex-direction: column; 
+    }
   
   .guitarras .guitarras-list li .guitarras-description .deatil-buttons i {
     margin: 5px;
-  }
+    }
   
   .guitarras .guitarras-list li .guitarras-description .deatil-buttons a {
     font-size: 20px;
@@ -468,7 +492,7 @@ footer ul li a{
     color: white;
     background-color: rgba(168, 14, 14, 0.658);
     border-radius: 6px;
-    height: 50px;
+    height: 40px;
     border: 0px;
     text-align: center;
     margin: 5px;
@@ -477,7 +501,7 @@ footer ul li a{
     justify-content: center;
     transition-property: background-color;
     transition-duration: 0.5s;
-  }
+    }
 }
 
 
@@ -497,17 +521,38 @@ footer ul li a{
     text-align: center;
     padding: 25px 0px 0px 0px;
     }
+
   p{
     font-size: 7px;
-  }
+    }
+
+  div.video{
+    text-align: center;
+    width: 100%;
+    }
+
+  .guitarras .guitarras-list li {
+    position: relative;
+    width: 270px;
+    height: 290px;
+    margin: 20px -84px 0px 0px;
+    overflow: hidden;
+    }
+
+  .guitarras .guitarras-list li img {
+    /*height: inherit;*/
+    width: 65%;
+    /*padding: 10px;*/  
+    }
+  
   .guitarras .guitarras-list li .guitarras-description {
-    position: absolute;
+    position: inherit;
     background-color: #1d1d1dad;
     color: white;
-    height: 40%;
-    right: 0px;
-    bottom: 350px;
-    width: inherit;
+    height: 45%;
+    right: -7px;
+    bottom: 140px;
+    width: 60%;
     transform: translate(0%, 100%);
     transition: transform;
     transition-duration: .75s;
@@ -515,11 +560,14 @@ footer ul li a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
+    }
+ 
   }
   
   .guitarras .guitarras-list li:hover .guitarras-description {
     transform: translate(0%, 0%);
-  }
+    }
   
   .guitarras .guitarras-list li .guitarras-description .guitarras-description-items {
     display: flex;
@@ -528,22 +576,21 @@ footer ul li a{
     justify-content: center;
     align-items: center;
     margin: 0px 10px;
-  }
+    }
   
   .guitarras .guitarras-list li .guitarras-description .guitarras-descrition-items h2 {
     text-align: center;
     font-size: medium;
-  }
+    }
   
   .guitarras .guitarras-list li .guitarras-description .deatil-buttons {
     display: flex;
     flex-direction: column;
-    
-  }
+    }
   
   .guitarras .guitarras-list li .guitarras-description .deatil-buttons i {
     margin: 5px;
-  }
+    }
   
   .guitarras .guitarras-list li .guitarras-description .deatil-buttons a {
     font-size: 20px;
@@ -561,8 +608,8 @@ footer ul li a{
     justify-content: center;
     transition-property: background-color;
     transition-duration: 0.5s;
-  }
-  }
+    }
+  
 
 @media(max-width: 280px){
   .guitarras .guitarras-list li .guitarras-description {
@@ -580,16 +627,16 @@ footer ul li a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
+    }
+
   .guitarras .guitarras-list li .guitarras-description .deatil-buttons {
     display: flex;
     flex-direction: column;
-    
-  }
+    }
   
   .guitarras .guitarras-list li .guitarras-description .deatil-buttons i {
     margin: 5px;
-  }
+    }
   
   .guitarras .guitarras-list li .guitarras-description .deatil-buttons a {
     font-size: 20px;
@@ -607,17 +654,18 @@ footer ul li a{
     justify-content: center;
     transition-property: background-color;
     transition-duration: 0.5s;
-  }
+    }
 }
 
 
 @media screen and (min-width: 768px) {
   nav{
       height: 100px;
-  }
+    }
+
   .bar-btn{
       display: none;
-  }
+    }
 
   .nav-menu{
       position: relative;
@@ -627,18 +675,18 @@ footer ul li a{
       transition: none;
       text-align:center;
       margin: right 50px;
-  }
+    }
 
   .nav-menu li {
       display: inline-flex;
       line-height:100px;
       margin: 0 20px;
       transition:none;
-  }
+    }
 
   .nav-menu li a {
       font-size:16px;
-  }
+    }
 
   .banner-text h2{
       font-size:20px;
