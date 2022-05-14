@@ -51,7 +51,7 @@ nav{
 .nav-menu li{
   display: none;
   line-height:30px;
-  margin: 0 0 0 0;
+  margin: 50px 0 0 0;
   transition:all .5s;
 }
 
@@ -99,30 +99,8 @@ nav{
   font-size: 16px;
   font-weight:600;
 }
-.button1{
-  margin-right: 40px;
-  padding:10px 30px;
-  background-color: red;
-  color: #fff;
-  border-radius: 7px;
-}
-.button1:hover{
-  background-color:#fff;
-  color: red;
-  transition: .5s;
-}
-.button2{
-  margin-right: 40px;
-  padding:10px 30px;
-  background-color: red;
-  color: #fff;
-  border-radius: 7px;
-}
-.button2:hover{
-  background-color:#fff;
-  color: red;
-  transition: .5s;
-}
+
+
 
 
 .form-register{
