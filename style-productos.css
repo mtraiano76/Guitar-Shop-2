@@ -49,6 +49,7 @@ nav{
   margin-right: 20px;
   cursor: pointer;
   margin-left:6px;
+  z-index:2;
 
 }
 .nav-menu{
@@ -114,7 +115,7 @@ nav{
 }
 
 .container {
-  position: relative;
+  /*position: relative;*/
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -123,6 +124,7 @@ nav{
   justify-content: center;
   padding: 35px 0px 25px 75px;
   margin: -150px 0px 300px -70px
+ 
 }
 
 .container .card{
@@ -248,7 +250,7 @@ nav{
     flex-direction: row;
     align-items: center;
     padding: 35px 0px 25px 0px;
-    margin: -20px 0px 0px 0px
+    margin: -200px 0px 0px 0px;
   }
   
   .container .card{
@@ -335,7 +337,7 @@ nav{
     flex-direction: row;
     align-items: center;
     padding: 35px 0px 25px 75px;
-    margin: -25px 0px 0px 0px
+    margin: -200px 0px 0px 0px;
   }
   
   .container .card{
