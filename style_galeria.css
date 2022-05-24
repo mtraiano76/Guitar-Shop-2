@@ -8,13 +8,20 @@
 
   body{
     font-family: 'Montserrat', sans-serif;
+    background-color: black;
     background-image: url(image/home.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
     color: white;
-    margin-bottom: 725px;
+    margin-bottom: 565px;
   }
+  .carousel{
+    width: 60%;
+    margin-left: 20%;
+  }
+
+
 
   h1{
     font-size: 70px;
@@ -98,4 +105,48 @@
   .banner-text h2{
     font-size: 16px;
     font-weight:600;
+  }
+  
+  .dropdown-toggle{
+    color: #fff;
+    background-color: rgba(255, 0, 0, 0.473);
+    margin: 20px;
+  }
+ div.accordion-flush{
+   margin: 25px;
+   
+ }
+
+  @media screen and (min-width: 768px) {
+    nav{
+        height: 100px;
+    }
+    .bar-btn{
+        display: none;
+    }
+  
+    .nav-menu{
+        position: relative;
+        height: 100px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align:center;
+        margin: right 50px;
+    }
+  
+    .nav-menu li {
+        display: inline-flex;
+        line-height:100px;
+        margin: 0 20px;
+        transition:none;
+    }
+  
+    .nav-menu li a {
+        font-size:16px;
+    }
+  
+    .banner-text h2{
+        font-size:20px;
+    }
   }
