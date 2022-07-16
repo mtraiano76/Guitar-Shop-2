@@ -7,6 +7,7 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   color: white;
+  text-align: center;
 }
 
 body{
@@ -42,15 +43,22 @@ div.cubos{
   text-align: center;
   
 }
+
+.nav-enlace{
+  
+}
 .cuadrado{
-  width: 200px;
-  height: 50px;
+  width: 170px;
+  height: 35px;
   background-color: red;
   transition: transform 0.5s;
   align-content: center;
   animation-name: shadow;
+  animation-iteration-count: infinite;
   animation-duration: 5s;
   animation-delay: 5s;
+  border-radius: 3px;
+  font-weight: bold;
 }
 @keyframes shadow{
   from{
